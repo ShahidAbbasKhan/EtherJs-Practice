@@ -1,6 +1,6 @@
 const { ethers } = require("ethers");
 const provider = new ethers.providers.JsonRpcProvider(
-  `https://mainnet.infura.io/v3/8a491a4d22c146f3bbc14bd0840beb8a`
+  `https://eth-goerli.g.alchemy.com/v2/C_xbLznsl8H8U-kKrQoeVJYGqMN8sTSn`
 );
 const getBlockNumber = async () => {
   const blockNum = await provider.getBlockNumber();
