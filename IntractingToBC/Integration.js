@@ -118,3 +118,5 @@ const readContractIntegration = async () => {
   console.log("Address balance is : ", specificValueInEther);
 };
 readContractIntegration();
+
+//** WRITTING TO SMART CONTRACT  **//
